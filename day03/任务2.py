@@ -15,6 +15,7 @@ while i<len(GDP):
 print("GDP之和",a)
 print("GDP平均数",a/8)
 
+#有以下一个列表，求其中是5的倍数的和
 five=[1,5,21,30,15,9,30,24]
 b=0
 c=0
@@ -24,14 +25,14 @@ while b<len(five):
     b+=1
 print("5的倍数的和",c)
 
-#翻转函数
+#有下列列表，请编程实现列表的数据翻转
 List = [1,2,3,4,5,6,7,8,9]
 # d=list(reversed(List))
 # print(d)
 List.reverse()
 print(List)
 
-
+#请编程统计列表中的每个数字出现的次数
 six = [1,4,7,5,8,2,1,3,4,5,9,7,6,1,10]
 print(six)
 f=int(input("请输入数字："))
